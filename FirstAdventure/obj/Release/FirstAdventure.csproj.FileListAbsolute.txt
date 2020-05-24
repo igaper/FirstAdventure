@@ -1,0 +1,13 @@
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\bin\Release\FirstAdventure.exe.config
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\bin\Release\FirstAdventure.exe
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\bin\Release\FirstAdventure.pdb
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\bin\Release\Engine.dll
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\bin\Release\Engine.pdb
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Release\FirstAdventure.csprojAssemblyReference.cache
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Release\FirstAdventure.rbtMessages.resources
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Release\FirstAdventure.Properties.Resources.resources
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Release\FirstAdventure.csproj.GenerateResource.cache
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Release\FirstAdventure.csproj.CoreCompileInputs.cache
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Release\FirstAdventure.csproj.CopyComplete
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Release\FirstAdventure.exe
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Release\FirstAdventure.pdb

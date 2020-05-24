@@ -1,0 +1,13 @@
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\bin\Debug\FirstAdventure.exe.config
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\bin\Debug\FirstAdventure.exe
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\bin\Debug\FirstAdventure.pdb
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\bin\Debug\Engine.dll
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\bin\Debug\Engine.pdb
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Debug\FirstAdventure.csprojAssemblyReference.cache
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Debug\FirstAdventure.Properties.Resources.resources
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Debug\FirstAdventure.csproj.GenerateResource.cache
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Debug\FirstAdventure.csproj.CoreCompileInputs.cache
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Debug\FirstAdventure.csproj.CopyComplete
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Debug\FirstAdventure.exe
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Debug\FirstAdventure.pdb
+E:\Projects\FirstAdventure\FirstAdventure\FirstAdventure\obj\Debug\FirstAdventure.rbtMessages.resources
