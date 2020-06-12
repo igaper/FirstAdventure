@@ -6,23 +6,28 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class Monster : Character
+    public class Monster
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
+        public int MonsterID { get; set; }
+        public string MonsterName { get; set; }
+        public int MaximumHitPoints { get; set; }
+        public int CurrentHitPoints { get; set; }
         public int MaximumDamage { get; set; }
-        public int RewardExperiencePoints { get; set; }
+        public int MinimumDamage { get; set; }
         public int RewardGold { get; set; }
-        public List<LootItem> LootTable { get; set; }
-        
-        public Monster(int id, string name,  int maximumdamage, int rewardgold, int rewardxp, int maximumhitpoints, int currenthitpoints) : base(maximumhitpoints, currenthitpoints)
+        public int RewardExperiencePoints { get; set; }
+
+        public Monster(int monsterid, string monstername, int maximumhitpoints, int maximumdamage, int minimumdamage, int rewardgold, int rewardxp)
         {
-            ID = id;
-            Name = name;
+            MonsterID = monsterid;
+            MonsterName = monstername;
+            MaximumHitPoints = maximumhitpoints;
+            CurrentHitPoints = MaximumHitPoints;
             MaximumDamage = maximumdamage;
-            RewardExperiencePoints = rewardxp;
+            MinimumDamage = minimumdamage;
             RewardGold = rewardgold;
-            LootTable = new List<LootItem>();
+            RewardExperiencePoints = rewardxp;
+
         }
     }
     

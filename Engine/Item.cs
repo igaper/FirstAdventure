@@ -8,15 +8,19 @@ namespace Engine
 {
     public class Item
     {
-        public int ID { get; set; }
+        public int ItemID { get; set; }
         public string Name { get; set; }
         public string NamePlural { get; set; }
+        public int MinValue { get; set; }
+        public int MaxValue { get; set; }
 
-        public Item (int id, string name, string nameplural)
+        public Item(int id, string name, string nameplural, int minvalue, int maxvalue)
         {
-            ID = id;
+            ItemID = id;
             Name = name;
             NamePlural = nameplural;
+            MinValue = minvalue;
+            MaxValue = maxvalue;
         }
     }
 }

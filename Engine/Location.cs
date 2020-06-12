@@ -8,24 +8,22 @@ namespace Engine
 {
     public class Location
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public Item ItemRequiredToEnter { get; set; }
-        public Quest QuestAvailableHere { get; set; }
-        public Monster MonsterLivingHere { get; set; }
-        public Location LocationToNorth { get; set; }
-        public Location LocationToEast { get; set; }
-        public Location LocationToSouth { get; set; }
-        public Location LocationToWest { get; set; }
-        public Location(int id, string name, string description, Item itemRequiredToEnter = null, Quest questAvailableHere = null, Monster monsterLivingHere = null)
+        public string LocationID { get; set; }
+        public string LocationName { get; set; }
+        public string LocationDescription { get; set; }
+        public string LocationToNorth { get; set; }
+        public string LocationToEast { get; set; }
+        public string LocationToSouth { get; set; }
+        public string LocationToWest { get; set; }
+        public Location(string id, string name, string description, string locationtonorth, string locationtoeast, string locationtosouth, string locationtowest)
         {
-            ID = id;
-            Name = name;
-            Description = description;
-            ItemRequiredToEnter = itemRequiredToEnter;
-            QuestAvailableHere = questAvailableHere;
-            MonsterLivingHere = monsterLivingHere;
+            LocationID = id;
+            LocationName = name;
+            LocationDescription = description;
+            LocationToNorth = locationtonorth;
+            LocationToEast = locationtoeast;
+            LocationToSouth = locationtosouth;
+            LocationToWest = locationtowest;
         }
     }
 }
