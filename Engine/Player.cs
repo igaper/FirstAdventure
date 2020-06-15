@@ -9,45 +9,22 @@ namespace Engine
     public class Player
     {
         public int PlayerID { get; set; }
-        public int MaximumHitpoints { get; set; }
-        public int CurrentHitpoints { get; set; }
+        public int MaximumHitPoints { get; set; }
+        public int CurrentHitPoints { get; set; }
         public int Gold { get; set; }
         public int ExperiencePoints { get; set; }
         public int Level { get; set; }
-        public string CurrentLocation { get; set; }
+        public Location CurrentLocation { get; set; }
 
-        public Player(int playerid, int maximumHitPoints, int currentHitPoints, int gold, int experiencePoints, int level, string currentlocation)
+        public Player(int playerid, int maximumHitPoints, int currentHitPoints, int gold, int experiencePoints, int level)
         {
             PlayerID = playerid;
-            MaximumHitpoints = maximumHitPoints;
-            CurrentHitpoints = currentHitPoints;
+            MaximumHitPoints = maximumHitPoints;
+            CurrentHitPoints = currentHitPoints;
             Gold = gold;
             ExperiencePoints = experiencePoints;
             Level = level;
-            CurrentLocation = currentlocation;
         }
-
-        //public bool HasRequiredItemToEnterThisLocation(Location location)
-        //{
-        //    if (location.ItemRequiredToEnter == null)
-        //    {
-        //        // There is no required item for this location, so return "true"
-        //        return true;
-        //    }
-
-        //    // See if the player has the required item in their inventory
-        //    foreach (InventoryItem ii in Inventory)
-        //    {
-        //        if (ii.Details.ID == location.ItemRequiredToEnter.ID)
-        //        {
-        //            // We found the required item, so return "true"
-        //            return true;
-        //        }
-        //    }
-
-        //    // We didn't find the required item in their inventory, so return "false"
-        //    return false;
-        //}
 
         //public bool HasThisQuest(Quest quest)
         //{

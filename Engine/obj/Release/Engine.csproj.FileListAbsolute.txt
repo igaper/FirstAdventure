@@ -1,6 +1,0 @@
-E:\Projects\FirstAdventure\FirstAdventure\Engine\bin\Release\Engine.dll
-E:\Projects\FirstAdventure\FirstAdventure\Engine\bin\Release\Engine.pdb
-E:\Projects\FirstAdventure\FirstAdventure\Engine\obj\Release\Engine.csprojAssemblyReference.cache
-E:\Projects\FirstAdventure\FirstAdventure\Engine\obj\Release\Engine.csproj.CoreCompileInputs.cache
-E:\Projects\FirstAdventure\FirstAdventure\Engine\obj\Release\Engine.dll
-E:\Projects\FirstAdventure\FirstAdventure\Engine\obj\Release\Engine.pdb

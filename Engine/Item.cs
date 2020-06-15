@@ -13,14 +13,16 @@ namespace Engine
         public string NamePlural { get; set; }
         public int MinValue { get; set; }
         public int MaxValue { get; set; }
+        public string Type { get; set; }
 
-        public Item(int id, string name, string nameplural, int minvalue, int maxvalue)
+        public Item(int id, string name, string nameplural, int minvalue, int maxvalue, string type)
         {
             ItemID = id;
             Name = name;
             NamePlural = nameplural;
             MinValue = minvalue;
             MaxValue = maxvalue;
+            Type = type;
         }
     }
 }
